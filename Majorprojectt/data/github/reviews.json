@@ -1,0 +1,9 @@
+[
+  { "id": "rev-318-1", "pr_number": 318, "reviewer": "Maya Lee", "state": "approved", "body": "Regression suite looks solid. Five PRs ready to merge.", "submitted_at": "2026-10-07T08:30:00Z" },
+  { "id": "rev-319-1", "pr_number": 319, "reviewer": "Maya Lee", "state": "approved", "body": "Approved.", "submitted_at": "2026-10-07T08:35:00Z" },
+  { "id": "rev-320-1", "pr_number": 320, "reviewer": "Ravi Kumar", "state": "approved", "body": "LGTM.", "submitted_at": "2026-10-07T07:45:00Z" },
+  { "id": "rev-321-1", "pr_number": 321, "reviewer": "Maya Lee", "state": "approved", "body": "Accessibility checks pass.", "submitted_at": "2026-10-07T07:15:00Z" },
+  { "id": "rev-322-1", "pr_number": 322, "reviewer": "Ravi Kumar", "state": "approved", "body": "Approved for release validation.", "submitted_at": "2026-10-07T06:50:00Z" },
+  { "id": "rev-291-1", "pr_number": 291, "reviewer": "Daniel Kim", "state": "commented", "body": "Tests look comprehensive. Needs security approval on PR #284 first.", "submitted_at": "2026-10-07T09:00:00Z" },
+  { "id": "rev-284-1", "pr_number": 284, "reviewer": "Alex Shah", "state": "commented", "body": "CI checks passed. Waiting for security reviewer assignment (Priya Rao).", "submitted_at": "2026-10-06T18:00:00Z" }
+]

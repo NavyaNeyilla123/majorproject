@@ -1,0 +1,36 @@
+# Dependencies
+Majorprojectt/node_modules/
+Majorprojectt/backend/.venv/
+Majorprojectt/backend/venv/
+
+# Python cache
+Majorprojectt/**/__pycache__/
+Majorprojectt/**/*.pyc
+
+# Frontend build
+Majorprojectt/dist/
+
+# Environment/secrets
+Majorprojectt/.env
+Majorprojectt/.env.*
+!Majorprojectt/.env.example
+Majorprojectt/backend/.env
+Majorprojectt/backend/.env.*
+!Majorprojectt/backend/.env.example
+
+# Local RAG/vector storage
+Majorprojectt/backend/.rag_storage/
+Majorprojectt/backend/.qdrant/
+Majorprojectt/.rag_storage/
+Majorprojectt/.qdrant/
+
+# Logs
+Majorprojectt/**/*.log
+
+# IDE
+Majorprojectt/.vscode/
+Majorprojectt/.idea/
+
+# OS
+Thumbs.db
+.DS_Store

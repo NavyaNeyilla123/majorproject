@@ -1,0 +1,134 @@
+[
+  {
+    "id": "repo-platform-api",
+    "name": "platform-api",
+    "org": "acme-eng",
+    "project_id": "proj-platform-api",
+    "project_name": "Platform API",
+    "open_issues_count": 18,
+    "active_prs_count": 6,
+    "health_status": "At risk",
+    "synced_at": "2026-10-07T09:41:00Z"
+  },
+  {
+    "id": "repo-customer-portal",
+    "name": "customer-portal",
+    "org": "acme-eng",
+    "project_id": "proj-customer-portal",
+    "project_name": "Customer Portal",
+    "open_issues_count": 7,
+    "active_prs_count": 5,
+    "health_status": "Ready for QA sign-off",
+    "synced_at": "2026-10-07T09:41:00Z"
+  },
+  {
+    "id": "repo-auth-sdk",
+    "name": "auth-sdk",
+    "org": "acme-eng",
+    "project_id": "proj-platform-api",
+    "project_name": "Platform API",
+    "open_issues_count": 8,
+    "active_prs_count": 2,
+    "health_status": "Review needed",
+    "synced_at": "2026-10-07T09:41:00Z"
+  },
+  {
+    "id": "repo-api-gateway",
+    "name": "api-gateway",
+    "org": "acme-eng",
+    "project_id": "proj-platform-api",
+    "project_name": "Platform API",
+    "open_issues_count": 6,
+    "active_prs_count": 2,
+    "health_status": "On track",
+    "synced_at": "2026-10-07T09:41:00Z"
+  },
+  {
+    "id": "repo-infrastructure",
+    "name": "infrastructure",
+    "org": "acme-eng",
+    "project_id": "proj-infrastructure",
+    "project_name": "Engineering Ops",
+    "open_issues_count": 5,
+    "active_prs_count": 1,
+    "health_status": "On track",
+    "synced_at": "2026-10-07T09:41:00Z"
+  },
+  {
+    "id": "repo-billing-service",
+    "name": "billing-service",
+    "org": "acme-eng",
+    "project_id": "proj-customer-portal",
+    "project_name": "Customer Portal",
+    "open_issues_count": 1,
+    "active_prs_count": 0,
+    "health_status": "On track",
+    "synced_at": "2026-10-07T09:41:00Z"
+  },
+  {
+    "id": "repo-notification-service",
+    "name": "notification-service",
+    "org": "acme-eng",
+    "project_id": "proj-customer-portal",
+    "project_name": "Customer Portal",
+    "open_issues_count": 1,
+    "active_prs_count": 0,
+    "health_status": "On track",
+    "synced_at": "2026-10-07T09:41:00Z"
+  },
+  {
+    "id": "repo-search-index",
+    "name": "search-index",
+    "org": "acme-eng",
+    "project_id": "proj-infrastructure",
+    "project_name": "Engineering Ops",
+    "open_issues_count": 1,
+    "active_prs_count": 0,
+    "health_status": "On track",
+    "synced_at": "2026-10-07T09:41:00Z"
+  },
+  {
+    "id": "repo-data-pipeline",
+    "name": "data-pipeline",
+    "org": "acme-eng",
+    "project_id": "proj-infrastructure",
+    "project_name": "Engineering Ops",
+    "open_issues_count": 1,
+    "active_prs_count": 0,
+    "health_status": "On track",
+    "synced_at": "2026-10-07T09:41:00Z"
+  },
+  {
+    "id": "repo-identity-provider",
+    "name": "identity-provider",
+    "org": "acme-eng",
+    "project_id": "proj-platform-api",
+    "project_name": "Platform API",
+    "open_issues_count": 0,
+    "active_prs_count": 1,
+    "health_status": "On track",
+    "synced_at": "2026-10-07T09:41:00Z"
+  },
+  {
+    "id": "repo-analytics-worker",
+    "name": "analytics-worker",
+    "org": "acme-eng",
+    "project_id": "proj-customer-portal",
+    "project_name": "Customer Portal",
+    "open_issues_count": 1,
+    "active_prs_count": 0,
+    "health_status": "On track",
+    "synced_at": "2026-10-07T09:41:00Z"
+  },
+  {
+    "id": "repo-ops-scripts",
+    "name": "ops-scripts",
+    "org": "acme-eng",
+    "project_id": "proj-infrastructure",
+    "project_name": "Engineering Ops",
+    "open_issues_count": 0,
+    "active_prs_count": 0,
+    "health_status": "On track",
+    "synced_at": "2026-10-07T09:41:00Z"
+  }
+]

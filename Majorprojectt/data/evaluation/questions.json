@@ -1,0 +1,38 @@
+[
+  {
+    "id": "eval-q1",
+    "question": "What blocks the Platform API v2.4 release?",
+    "expected_answer": "Security approval for the auth migration; PR #284 needs a security reviewer.",
+    "evidence_citations": ["Issue #142", "PR #284", "GM-064 Message 2"],
+    "result_label": "Both correct",
+    "baseline_rag_correct": true,
+    "knowledgeops_ai_correct": true
+  },
+  {
+    "id": "eval-q2",
+    "question": "Is October 9 a confirmed release approval?",
+    "expected_answer": "No. It is a target date; security sign-off remains a required gate.",
+    "evidence_citations": ["GM-064 Messages 1-2"],
+    "result_label": "KO correct · Base miss",
+    "baseline_rag_correct": false,
+    "knowledgeops_ai_correct": true
+  },
+  {
+    "id": "eval-q3",
+    "question": "What should Alex Shah do next?",
+    "expected_answer": "Assign a security reviewer to PR #284; no action should run without approval.",
+    "evidence_citations": ["PR #284", "GM-064 Message 4"],
+    "result_label": "KO correct · Base partial",
+    "baseline_rag_correct": false,
+    "knowledgeops_ai_correct": true
+  },
+  {
+    "id": "eval-q4",
+    "question": "Is Customer Portal ready for release validation?",
+    "expected_answer": "Yes. Regression suite complete, 5 PRs ready to merge; QA approval pending.",
+    "evidence_citations": ["GM-071 QA handoff", "PR #318"],
+    "result_label": "Both correct",
+    "baseline_rag_correct": true,
+    "knowledgeops_ai_correct": true
+  }
+]

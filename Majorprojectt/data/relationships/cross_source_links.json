@@ -1,0 +1,60 @@
+[
+  {
+    "id": "link-platform-api-v24",
+    "project_id": "proj-platform-api",
+    "project_name": "Platform API",
+    "target_release": "v2.4",
+    "target_date": "2026-10-09",
+    "primary_blocker": {
+      "github_issue": {
+        "id": 142,
+        "number": 142,
+        "title": "Auth migration blocking release",
+        "repository": "platform-api",
+        "status": "open",
+        "is_release_blocker": true
+      },
+      "github_pr": {
+        "id": 284,
+        "number": 284,
+        "title": "Token validation middleware",
+        "repository": "platform-api",
+        "status": "awaiting_security_review",
+        "ci_status": "passed",
+        "security_reviewer_assigned": false
+      },
+      "gmail_thread": {
+        "id": "GM-064",
+        "subject": "Release readiness · v2.4",
+        "category": "Risk",
+        "messages_count": 4,
+        "last_message_at": "2026-10-06T18:00:00Z"
+      }
+    },
+    "provenance_facts": [
+      "October 9 is the target release date.",
+      "The auth migration is release-blocking.",
+      "PR #284 has passed CI checks.",
+      "PR #284 still requires security review.",
+      "Gmail GM-064 confirms security approval is a mandatory release gate.",
+      "No evidence states that the release WILL definitely slip; it is assessed as At Risk.",
+      "The appropriate recommendation is to assign a security reviewer to PR #284 and confirm release scope."
+    ],
+    "linked_evidence": [
+      { "citation_id": "1", "source_type": "github_issue", "source_id": "Issue #142", "excerpt": "Release is blocked until the auth migration receives security approval." },
+      { "citation_id": "2", "source_type": "github_pr", "source_id": "PR #284", "excerpt": "Checks passed. Security reviewer has not yet been assigned." },
+      { "citation_id": "3", "source_type": "gmail_email", "source_id": "Gmail GM-064 / Message 1", "excerpt": "Keep October 9 as the target. Auth approval is required; confirm the final scope today." },
+      { "citation_id": "4", "source_type": "gmail_email", "source_id": "Gmail GM-064 / Message 2", "excerpt": "Do not ship the auth migration without security sign-off." }
+    ]
+  },
+  {
+    "id": "link-customer-portal-qa",
+    "project_id": "proj-customer-portal",
+    "project_name": "Customer Portal",
+    "target_release": "v3.1",
+    "primary_blocker": null,
+    "github_pr": { "id": 318, "number": 318, "title": "Release validation fixes", "repository": "customer-portal" },
+    "gmail_thread": { "id": "GM-071", "subject": "QA handoff · Customer Portal" },
+    "status": "Ready for QA sign-off"
+  }
+]
